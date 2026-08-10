@@ -1,5 +1,4 @@
 export TARGET = iphone:clang:18.6:15.0
-ADDITIONAL_CFLAGS += -std=gnu++23
 export SDK_PATH = $(THEOS)/sdks/iPhoneOS18.6.sdk/
 export SYSROOT = $(SDK_PATH)
 export ARCHS = arm64
